@@ -18,7 +18,7 @@ int main()
 {
     int from, to;
     int length = 0;
-    cout << "Enter arr length: ";
+    cout << "Enter array length: ";
     cin >> length;
     if(length > 0){
         cout << "Input value boundaries:" << endl;
@@ -36,7 +36,7 @@ int main()
             string shuffleNeeded = "y"; //можно задать вид положительного ответа: 1, Y, y, true... Любой другой == нет
             string answer = "y";
             while(answer == shuffleNeeded){
-                cout << "Shuffle arr?(Y/N)" << endl;
+                cout << "Shuffle array?(Y/N)" << endl;
                 cin >> answer;
                 if(answer == shuffleNeeded){
                     cout << "Shuffling..." << endl;
@@ -111,7 +111,7 @@ int main()
             cout << "Invalid boundaries" << endl;
         }
     }else{
-        cout << "Invalid arr length." << endl;
+        cout << "Invalid array length." << endl;
     }
     cout << endl;
     return 0;
